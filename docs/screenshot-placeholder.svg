@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" role="img" aria-label="Место для скриншота Zone Quest Generator">
+  <rect width="1200" height="650" fill="#101410"/>
+  <rect x="85" y="70" width="1030" height="510" fill="#182019" stroke="#496044" stroke-width="3"/>
+  <text x="140" y="160" fill="#b9cf58" font-family="monospace" font-size="23">ПДА // ЛОКАЛЬНАЯ СЕТЬ ЗОНЫ</text>
+  <text x="140" y="245" fill="#d6dfc9" font-family="monospace" font-size="58" font-weight="bold">ZONE QUEST GENERATOR</text>
+  <text x="140" y="350" fill="#90a08c" font-family="monospace" font-size="26">Место для скриншота интерфейса</text>
+  <rect x="140" y="405" width="290" height="60" fill="#b9cf58"/>
+  <text x="166" y="443" fill="#101410" font-family="monospace" font-size="21" font-weight="bold">СГЕНЕРИРОВАТЬ КВЕСТ</text>
+</svg>
