@@ -23,7 +23,7 @@ Zone Quest Generator создаёт не набор случайно склее�
 Нужен [Node.js](https://nodejs.org/) 20 или новее.
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/zone-quest-generator.git
+git clone https://github.com/Barth322/zone-quest-generator.git
 cd zone-quest-generator
 npm start
 ```
