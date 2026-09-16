@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Генератор атмосферных побочных квестов для S.T.A.L.K.E.R. Anomaly" />
+    <title>Zone Quest Generator</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="terminal">
+      <header class="hero">
+        <p class="eyebrow">ПДА // ЛОКАЛЬНАЯ СЕТЬ ЗОНЫ</p>
+        <h1>ZONE QUEST GENERATOR</h1>
+        <p class="lead">Атмосферные побочные задания для S.T.A.L.K.E.R. Anomaly 1.5.3 — с завязкой, логикой и возможной развязкой.</p>
+        <button id="generate-button" class="primary" type="button">Сгенерировать квест</button>
+      </header>
+
+      <section class="quest-card" aria-live="polite" aria-labelledby="quest-title">
+        <div class="card-topline"><span id="quest-type">ЗАГРУЗКА ДАННЫХ</span><span class="status">● СВЯЗЬ ЕСТЬ</span></div>
+        <h2 id="quest-title">Ожидание запроса</h2>
+        <dl id="quest-details" class="quest-details"></dl>
+        <div class="card-actions">
+          <button id="copy-button" class="secondary" type="button" disabled>Копировать квест</button>
+          <span id="copy-status" class="copy-status" aria-live="polite"></span>
+        </div>
+      </section>
+    </main>
+    <footer>Неофициальный фанатский проект. S.T.A.L.K.E.R. принадлежит своим правообладателям.</footer>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

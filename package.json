@@ -1,0 +1,15 @@
+{
+  "name": "zone-quest-generator",
+  "version": "1.0.0",
+  "description": "Генератор атмосферных побочных квестов для S.T.A.L.K.E.R. Anomaly 1.5.3",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "start": "npx serve ."
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  },
+  "keywords": ["stalker", "anomaly", "quest-generator", "javascript"],
+  "license": "MIT"
+}
